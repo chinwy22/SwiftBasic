@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  SwiftBasic
+
+  Created by Chin on 2019/6/18.
+  Copyright © 2019 Chin. All rights reserved.
+*/
+
+"Hello" = "nihao";

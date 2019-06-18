@@ -13,7 +13,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        ALog(Language.getString("Hello"))
+        
+        
+        ExempleDAO.WSGetPersonalPageData(successHandler: { (userInfo) in
+            let userInfo : UserInfo = userInfo
+            ALog(userInfo.phone)
+        }) { (error) in
+            ALog(error)
+        }
     }
+
 
 
 }
