@@ -38,6 +38,7 @@ class Language: NSObject {
         return bundle.localizedString(forKey: key, value: nil, table: nil)
     }
     
+//    除了中文 都是英文
     func getDeviceLanguage() -> String{
         let languages : [String] = def.object(forKey: self.languageKey) as! [String]
         let str : String = languages[0]

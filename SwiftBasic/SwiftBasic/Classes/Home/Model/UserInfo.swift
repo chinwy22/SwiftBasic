@@ -10,15 +10,15 @@ import Foundation
 
 class UserInfo : Codable {
     var id: Int = 0
-    var name: String!
-    var brief: String!
-    var sex: String!
+    var name: String?
+    var brief: String?
+    var sex: String?
     var birthDate: Int = 0
-    var phone: String!
-    var sesameCode: String!
-    var avatar: String!
-    var relationship: String!
+    var phone: String?
+    var sesameCode: String?
+    var avatar: String?
+    var relationship: String?
     var isFriend: Bool = false
-    var region: String!
-    var rongcloudId: String!
+    var region: String?
+    var rongcloudId: String?
 }

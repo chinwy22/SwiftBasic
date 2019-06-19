@@ -456,6 +456,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62832U8823;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_USE_STANDARD_INCLUDE_SEARCHING = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${SRCROOT}/Alamofire/Alamofire.framework/Headers\"",
+				);
 				INFOPLIST_FILE = SwiftBasic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -476,6 +481,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62832U8823;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_USE_STANDARD_INCLUDE_SEARCHING = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${SRCROOT}/Alamofire/Alamofire.framework/Headers\"",
+				);
 				INFOPLIST_FILE = SwiftBasic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
